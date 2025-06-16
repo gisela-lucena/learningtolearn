@@ -1,0 +1,80 @@
+.header {
+    height: 100vh;
+    min-height: 600px;
+    max-height: 756px;
+    background-color: #f2f2f2;
+    position: relative;
+}
+
+.logo {
+    z-index: 1;
+}
+
+.header__logo {
+    width: 154px;
+    height: 31px;
+    padding-top: 30px;
+    margin-left: 64px;
+}
+
+.header__title {
+    width: 730px;
+    margin-left: 64px;
+    font-size: 102px;
+    font-weight: bold;
+    line-height: 96px;
+    
+}
+
+.header__subtitle {
+    width: 388px;
+    margin-left: 64px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: normal;
+}
+
+.header__link {
+    width: 388px;
+    color: #2f80ed;
+    font-size: 18px;
+    line-height: 25px;
+    margin-left: 64px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.header__main-illustration-image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 756px;
+    height: 608px;
+    z-index: 1;
+}   
+
+.header__square-pic {
+    height: 568px;
+    width: 568px;
+    background-color: #2f80ed;
+    margin-top: 64px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: rotate(15deg);
+    transform-origin: center;    
+}
+
+.rotation__animate {
+    animation: rotateClockwise 20s linear infinite;
+    }
+
+    @keyframes rotateClockwise {
+  0% {
+    transform: rotate(15deg); /* Começa com os 15 graus iniciais */
+  }
+  100% {
+    transform: rotate(375deg); /* 360 graus + 15 graus iniciais para uma rotação completa a partir do ponto de partida */
+  }
+}
