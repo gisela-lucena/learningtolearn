@@ -70,6 +70,21 @@
     position: absolute;
     top: 0;
     right: 0;
+    transform: rotate(15deg);
+    transform-origin: center;    
+}
+
+.rotation__animate {
+    animation: rotateClockwise 20s linear infinite;
+    }
+
+    @keyframes rotateClockwise {
+  0% {
+    transform: rotate(15deg); /* Começa com os 15 graus iniciais */
+  }
+  100% {
+    transform: rotate(375deg); /* 360 graus + 15 graus iniciais para uma rotação completa a partir do ponto de partida */
+  }
 }
 
 .two-columns {
