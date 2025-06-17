@@ -26,7 +26,7 @@
     width: 60%;
 }
 
-.cards {
+.techniques__cards {
     width: 920px;
     display: flex;
     flex-direction: row;
@@ -35,12 +35,12 @@
     column-gap: 100px;
     padding: 0;
 }
-.cards__item {
+.techniques__cards-item {
     list-style-type: none;
     width: 240px;
     }
 
-.card__image {
+.techniques__card-image {
     width: 160px;
     height: 160px;
     border-radius: 100%;
@@ -49,7 +49,7 @@
 
 }
 
-.card__title {
+.techniques__card-title {
     line-height: 1.15;
     font-size: 24px;
     font-weight: bold;
@@ -57,7 +57,7 @@
     text-align: center;
 }
 
-.card__description {
+.techniques__card-description {
     line-height: 23px;
     font-size: 18px;
     font-weight: normal;

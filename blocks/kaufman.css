@@ -41,7 +41,7 @@
    transform-origin: center;    
 }
 
-.rotation__animate {
+.kaufman__triangle_rotation-animate {
     animation: rotateClockwise 20s linear infinite;
     }
 

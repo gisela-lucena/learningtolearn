@@ -67,7 +67,7 @@
     transform-origin: center;    
 }
 
-.rotation__animate {
+.header__square-pic_rotation_animate {
     animation: rotateClockwise 20s linear infinite;
     }
 
