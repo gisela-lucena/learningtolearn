@@ -1,0 +1,41 @@
+.video {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    }
+
+.video__title {
+width: 60%;
+display: flex;
+justify-content: center;
+margin-bottom: 20px;
+line-height: 1.15;
+font-size: 60px;
+font-weight: bold;
+
+}
+
+.video__subtitle {
+width: 60%;
+display: flex;
+justify-content: center;
+margin-bottom: 60px;
+line-height: 34px;
+font-size: 24px;
+font-weight: normal;
+}
+
+.video__iframes {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    column-gap: 20px;
+     
+}
+
+.video__iframe {
+    width: 515px;
+    height: 316px;
+    }
